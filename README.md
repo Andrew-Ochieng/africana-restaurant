@@ -4,7 +4,7 @@ Andrew Omondi Ochieng
 
 
 ## Project Name:
-Africana Restaurant API
+Afrikaan Eats
 
 
 ## Description of the program:
@@ -19,39 +19,21 @@ Africana Restaurant API
 
 
 ## Program instructions:
-Accessing the project requires a user to have the following: Any computing device with access to Internet. Reliable Internet connection.
+Accessing the project requires a user to have the following: 
+* Any computing device with access to Internet. 
+* Reliable Internet connection.
 
 
-## Script Details
+## Project Details
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a backend api of Afrikaan Eats, an online food odering application. The api contains the logic with relationships between different tables such as location, restaurants, menu, among others. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 
 <br>
 
 
 ## GitHub Pages:
-[Africana Restaurant](https://github.com/Andrew-Ochieng/the-wreat)
+[Afrikaan Eats](https://github.com/Andrew-Ochieng/afrikaan-eats-api)
 
 <br />
 
@@ -63,7 +45,7 @@ Things you may want to cover:
 [Twitter](https://twitter.com/dev__drew) | 
 [Github](https://github.com/Andrew-Ochieng)
 
-## Hosted Api
+<!-- ## Hosted Api -->
 
 
 
