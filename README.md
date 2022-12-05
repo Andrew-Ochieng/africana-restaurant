@@ -8,7 +8,7 @@ Afrikaan Eats
 
 
 ## Description of the program:
-
+The program is a food ordering application where one can order food from one of the major cities in kenya. The user has the ability to choose a specific restaurant on which to order a particular food item(s) from the menu.
 
 
 
@@ -28,12 +28,21 @@ Accessing the project requires a user to have the following:
 
 This is a backend api of Afrikaan Eats, an online food odering application. The api contains the logic with relationships between different tables such as location, restaurants, menu, among others. 
 
+<br>
+
+## Future Additions 
+* Add a reviews section where clients can leave their ratings & comments
+* Add payment intergrations where after checking out, clients can make direct payments
+* Add more locations(towns) to the platform in that people in other areas can also benefit from the application.
 
 <br>
 
 
 ## GitHub Pages:
-[Afrikaan Eats](https://github.com/Andrew-Ochieng/afrikaan-eats-api)
+[Afrikaan Eats API](https://github.com/Andrew-Ochieng/afrikaan-eats-api)
+
+[Afrikaan Eats Client](https://github.com/Andrew-Ochieng/afrikaan-eats-client)
+
 
 <br />
 
