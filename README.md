@@ -4,7 +4,7 @@ Andrew Omondi Ochieng
 
 
 ## Project Name:
-Afrikaan Eats
+Afrikaan Restaurant
 
 
 ## Description of the program:
@@ -26,7 +26,7 @@ Accessing the project requires a user to have the following:
 
 ## Project Details
 
-This is a backend api of Afrikaan Eats, an online food odering application. The api contains the logic with relationships between different tables such as location, restaurants, menu, among others. 
+This is a backend api of Afrikaan Restaurant, an online food odering application. The api contains the logic with relationships between different tables such as location, restaurants, menu, among others. 
 
 <br>
 
