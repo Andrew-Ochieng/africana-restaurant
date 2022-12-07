@@ -80,7 +80,8 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
-  database: africana_api_production
-  username: africana_api
-  password: <%= ENV["AFRICANA_API_DATABASE_PASSWORD"] %>
+  # <<: *default
+  # database: africana_api_production
+  # username: africana_api
+  # password: <%= ENV["AFRICANA_API_DATABASE_PASSWORD"] %>
+  url: <%= ENV["DATABASE_URL"] %>
