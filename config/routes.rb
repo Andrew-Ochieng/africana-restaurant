@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
+  resources :users
   resources :menu_items, only: [:index, :show, :create, :update, :destroy]
   resources :menus, only: [:index, :show, :create, :update, :destroy]
-  resources :customers
   resources :order_items
   resources :orders
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  
+  post '/signup', to: 'users#create'
+  get '/me', to: 'users#show'
+  post '/login', to: 'sessions#create'
+  delete '/logout', to: 'sessions#destroy'
 end
