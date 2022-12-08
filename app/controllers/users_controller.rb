@@ -2,10 +2,7 @@ class UsersController < ApplicationController
     rescue_from ActiveRecord::RecordInvalid, with: :record_invalid
     rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
 
-    def index
-        render json: User.all, status: :ok
-    end
-    
+
     def create
         user = User.create!(user_params)
         session[:user_id] = user.id
@@ -33,7 +30,7 @@ class UsersController < ApplicationController
     end
 
     def user_params
-        params.permit(:username, :password, :password_confirmation)
+        params.permit(:username, :email, :address :password, :password_confirmation)
     end
 
 end

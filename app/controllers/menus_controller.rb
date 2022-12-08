@@ -6,6 +6,7 @@ class MenusController < ApplicationController
         render json: Menu.all, status: :ok
     end
 
+
     def show
         menu = Menu.find(params[:id])
         render json: menu, status: :ok
@@ -42,3 +43,5 @@ class MenusController < ApplicationController
         render json: {error: invalid.record.errors.full_messages}, status: :unprocessable_entity
     end
 end
+
+  

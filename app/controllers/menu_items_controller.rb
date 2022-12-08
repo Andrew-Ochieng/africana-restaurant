@@ -6,6 +6,7 @@ class MenuItemsController < ApplicationController
         render json: MenuItem.all, status: :ok
     end
 
+
     def show
         menu_item = MenuItem.find(params[:id])
         render json: menu_item, status: :ok
