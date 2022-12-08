@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  # resources :users, only: [:index, :show, :create]
+  resources :users, only: [:index, :show, :create]
   # resources :menu_items, only: [:index, :show, :create, :update, :destroy]
   resources :menus, only: [:index, :show, :create, :update, :destroy] do
     # nested resource for menu_items
@@ -8,8 +8,8 @@ Rails.application.routes.draw do
   resources :order_items
   resources :orders
   
-  post '/signup', to: 'users#create'
-  get '/me', to: 'users#show'
   post '/login', to: 'sessions#create'
-  delete '/logout', to: 'sessions#destroy'
+  delete 'logout', to: 'sessions#destroy'
+  get "/me", to: "users#show"
+  post "/signup", to: "users#create"
 end
