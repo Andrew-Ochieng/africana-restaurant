@@ -1,7 +1,5 @@
 class UsersController < ApplicationController
-    # rescue_from ActiveRecord::RecordInvalid, with: :record_invalid
-    rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
-
+    
     def index
         render json: User.all, status: :ok
     end
@@ -12,7 +10,7 @@ class UsersController < ApplicationController
             session[:user_id] = user.id
             render json: user, status: :created
         else
-            render json: { errors: invalid.record.errors.full_messages }, status: :unprocessable_entity
+            render json: { errors: user.errors.full_messages }, status: :unprocessable_entity
         end
     end
 
@@ -23,13 +21,6 @@ class UsersController < ApplicationController
 
 
     private
-    # def record_invalid(invalid)
-    #     render json: invalid.record.errors.full_messages, status: :unprocessable_entity
-    # end
-
-    def record_not_found
-        render json: {error: "Record not found"}, status: :not_found
-    end
 
     def user_params
         params.permit(:username, :email, :address, :password, :password_confirmation)
