@@ -29,6 +29,6 @@ module AfricanaApi
 
     config.action_dispatch.cookies_same_site_protection = :strict
 
-    config.hosts << "https://afrikaan-restaurant-production.up.railway.app/"
+    config.hosts << "afrikaan-restaurant-production.up.railway.app/"
   end
 end
