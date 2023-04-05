@@ -1,0 +1,16 @@
+current directory: /home/code-x/Desktop/afrikaan-restaurant-api/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
+/home/code-x/.rvm/rubies/ruby-2.7.4/bin/ruby -I /home/code-x/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20230221-81785-86v8zd.rb extconf.rb
+creating Makefile
+
+current directory: /home/code-x/Desktop/afrikaan-restaurant-api/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
+make "DESTDIR=" clean
+
+current directory: /home/code-x/Desktop/afrikaan-restaurant-api/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/code-x/Desktop/afrikaan-restaurant-api/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 debug.so ./.gem.20230221-81785-1sgwbiz/debug

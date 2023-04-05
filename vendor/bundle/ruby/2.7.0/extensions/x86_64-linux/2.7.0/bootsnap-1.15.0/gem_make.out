@@ -1,0 +1,15 @@
+current directory: /home/code-x/Desktop/afrikaan-restaurant-api/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.15.0/ext/bootsnap
+/home/code-x/.rvm/rubies/ruby-2.7.4/bin/ruby -I /home/code-x/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20230221-81785-cpacmo.rb extconf.rb
+creating Makefile
+
+current directory: /home/code-x/Desktop/afrikaan-restaurant-api/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.15.0/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/code-x/Desktop/afrikaan-restaurant-api/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.15.0/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/code-x/Desktop/afrikaan-restaurant-api/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.15.0/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -m 0755 bootsnap.so ./.gem.20230221-81785-1shn7kd/bootsnap
